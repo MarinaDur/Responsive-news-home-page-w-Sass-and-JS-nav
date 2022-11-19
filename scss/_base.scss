@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap");
+@font-face {
+  font-family: "inter";
+  src: url(../assets/fonts/static/Inter-Bold.ttf);
+  src: url(../assets/fonts/static/Inter-ExtraBold.ttf);
+  src: url(../assets/fonts/static/Inter-Regular.ttf);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  //   display: grid;
+  //   place-content: center;
+  background: $clr-Off-white;
+  margin: auto;
+  max-width: 120rem;
+}
